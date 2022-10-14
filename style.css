@@ -12,3 +12,32 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.code-editor {
+  width: 90vw;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.code {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  overflow-y: auto;
+  background-color: #4f5355;
+  padding: 1rem;
+}
+
+h1 {
+  font: 600 1.2rem sans-serif;
+  margin: 1rem 0;
+  color: #fff;
+}
+
+h1 > img {
+  width: 1.3rem;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
